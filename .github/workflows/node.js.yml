@@ -68,8 +68,8 @@ jobs:
       - name: npm install and build webpack
         run: |
           npm install
-          npm run build
-                        
+          npm run build              
+    
     test:
     
        runs-on: ubuntu-latest
